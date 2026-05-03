@@ -51,6 +51,3 @@ class TestDataFiles:
     CATEGORIES_JSON: FilePath = generate_path(
         directory=TestDataDir.ALLURE_RESULTS_DIR, file_name='categories', extension=Types.JSON
     )
-
-    # ENVIRONMENT_PROPERTIES: FilePath = TestDataDir.ALLURE_RESULTS_DIR.joinpath('environment.properties')
-    # CATEGORIES_JSON: FilePath = TestDataDir.ALLURE_RESULTS_DIR.joinpath('categories.json')

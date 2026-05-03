@@ -37,7 +37,7 @@ class TestViewRegistration:
         'incorrect_user_data',
         [
             pytest.param({'email': ''}),
-            # pytest.param({'username': ''}),
+            pytest.param({'username': ''}, marks=pytest.mark.skip(reason="Не работает")),
             pytest.param({'password': ''}),
         ],
     )
